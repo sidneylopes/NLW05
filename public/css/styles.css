@@ -14,7 +14,7 @@ body {
   width: 153px;
   height: 56px;
 
-  background: #8257e6;
+  background: #3385ff;
   border-radius: 68px;
   text-align: center;
   color: #fff;
@@ -45,7 +45,7 @@ body {
   width: 320px;
   height: 56px;
 
-  background: #8257e6;
+  background: #3385ff;
   border-radius: 16px 16px 0px 0px;
 
   display: flex;
@@ -138,7 +138,8 @@ body {
 
 .admin .message {
   width: 230px;
-  background: #f2ecfa;
+  background: #3385ff;
+  color: #fff;
   border-radius: 4px;
   padding: 10px;
   margin-left: 12px;
@@ -155,6 +156,7 @@ body {
   outline: none;
   height: 34px;
   align-items: center;
+  padding: 20px 5px;
   width: 252px;
 }
 
@@ -209,7 +211,7 @@ input[type="text"]:focus {
   width: 121px;
   height: 40px;
 
-  background: #8257e6;
+  background: #3385ff;
   border-radius: 4px;
   color: #fff;
   border: none;
@@ -251,16 +253,18 @@ input[type="text"]:focus {
 .btn_atd {
   cursor: pointer;
   color: #fff;
-  background: #b32a2a;
-  border: none;
+  background: #3385ff;
+  border-radius: 10px;
+  border: 2px solid #3385ff;
   height: 30px;
-  padding: 10px;
+  padding: 15px;
   display: flex;
   align-items: center;
 }
 
 .btn_atd:hover {
   opacity: 0.9;
+  border: 2px solid #296bce;
 }
 
 .admin {
